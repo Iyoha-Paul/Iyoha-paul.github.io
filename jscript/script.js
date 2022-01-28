@@ -1,5 +1,5 @@
 'use strict';
-document.addEventListener('submit', function(){
+document.querySelector('.submit').addEventListener('click', function(){
   const email = document.querySelector('.email').value;
   console.log(email);
 
