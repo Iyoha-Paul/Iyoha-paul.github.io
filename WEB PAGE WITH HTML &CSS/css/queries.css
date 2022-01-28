@@ -3,6 +3,13 @@
 1 rem= current font size
 rem has bugs in media quaries: USE EM!
 */
+@media (max-width: 50em) {
+  .grid__2__col {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    column-gap: 4rem;
+  }
+}
 @media (max-width: 35em) {
   .hero__statistics {
     flex-direction: column;
