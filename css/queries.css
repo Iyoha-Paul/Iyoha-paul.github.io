@@ -9,6 +9,37 @@ rem has bugs in media quaries: USE EM!
     grid-template-columns: 1fr;
     column-gap: 4rem;
   }
+  .hero__statistics {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .grid__2__col {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    column-gap: 4rem;
+  }
+  .accordion__content__description {
+    grid-row: 1/2;
+    text-align: center;
+  }
+  .cta {
+    text-align: center;
+  }
+  .hero__statistics__number {
+    font-size: 10rem;
+  }
+  .icon-big-white {
+    width: 47px;
+  }
+  .footer__contactinfo__container {
+    align-items: center;
+  }
+  .footer__contactinfo {
+    margin-top: 4.8rem;
+  }
+  html {
+    font-size: 50%;
+  }
 }
 @media (max-width: 35em) {
   .hero__statistics {
