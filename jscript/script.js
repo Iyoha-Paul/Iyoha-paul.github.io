@@ -1,10 +1,9 @@
-'use strict';
+"use strict";
 
-document.querySelector('.submit').addEventListener('click', function () {
-  const email = document.querySelector('.email').value;
+  const email = document.querySelector(".email").value;
   console.log(email);
 
   if (!email) {
-    alert('please enter mail abeg');
+    alert("please enter mail!");
   }
 });

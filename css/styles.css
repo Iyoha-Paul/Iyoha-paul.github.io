@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.2;
   font-weight: 400;
   color: hsl(192, 100%, 9%);
@@ -25,12 +25,12 @@ a {
 }
 h1 {
   font-size: 4.8rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 h3 {
   font-size: 4.8rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 footer {
@@ -47,7 +47,7 @@ footer {
   align-items: center;
 }
 .header__heading__title_headings {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 3.6rem;
 }
@@ -168,24 +168,28 @@ footer {
   padding-top: 3.2rem;
   max-width: 150rem;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: normal;
+  display: flex;
+
   align-items: center;
   justify-content: space-between;
   margin-bottom: 9.6rem;
 }
+/* .header__heading__logo__container {
+  height: 1.23rem;
+  display: flex;
+  align-items: center;
+} */
 .header__heading__title {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.header__heading__btn {
+/* .header__heading__btn {
   grid-column: -1/-2;
   margin-left: auto;
-}
+} */
 .header__heading__logo {
-  width: 90%;
+  height: 3rem;
 }
 .hero {
   display: flex;
@@ -220,7 +224,7 @@ footer {
 }
 .hero__statistics__number {
   font-size: 7.4rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
