@@ -1,5 +1,5 @@
 'use strict';
-document.querySelector('submit', function(){
+document.addEventListener('submit', function(){
   const email = document.querySelector('.email').value;
   console.log(email);
 
