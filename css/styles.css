@@ -189,7 +189,7 @@ footer {
   margin-left: auto;
 } */
 .header__heading__logo {
-  height: 3rem;
+  height: 4rem;
 }
 .hero {
   display: flex;
@@ -226,6 +226,9 @@ footer {
   font-size: 7.4rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+}
+.hero__statistics__description {
+  color: #868e96;
 }
 
 .features {
