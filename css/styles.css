@@ -228,10 +228,10 @@ footer {
   font-weight: 600;
 }
 
-.accordion {
+.features {
   margin-bottom: 12.8rem;
 }
-.accordion__section__top__wavyImg {
+.features__section__top__wavyImg {
   display: block;
   background-image: url(../images/bg-section-top-desktop-1.svg);
   background-size: cover;
@@ -240,7 +240,7 @@ footer {
   height: 16rem;
 }
 
-.accordion__section__btm__wavyImg {
+.features__section__btm__wavyImg {
   display: block;
   background-image: url(../images/bg-section-bottom-desktop-1.svg);
   background-size: cover;
@@ -249,21 +249,21 @@ footer {
 
   height: 16rem;
 }
-.accordion__content {
+.features__content {
   column-gap: 6.4rem;
 }
-.accordion__container {
+.features__container {
   background-color: #f6fbff;
   padding: 3.2rem 0;
 }
-.accordion__content__img__container img {
+.features__content__img__container img {
   width: 100%;
 }
 
-.accordion P {
+.features P {
   margin-top: 3.2rem;
 }
-.accordion__container-whiteBG {
+.features__container-whiteBG {
   background-color: #fff;
   padding-top: 4.8rem;
   padding-bottom: 6.4rem;
@@ -275,7 +275,7 @@ footer {
   gap: 3.6rem;
   margin-bottom: 9.6rem;
 }
-/* .accordion__section__btm__wavyImg {
+/* .features__section__btm__wavyImg {
   display: block;
   background-image: url(../images/bg-section-bottom-desktop-1.svg);
   background-size: cover;
