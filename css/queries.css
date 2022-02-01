@@ -51,6 +51,7 @@ rem has bugs in media quaries: USE EM!
     flex-direction: column;
     gap: 9.2rem;
   }
+
   .grid__2__col {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
@@ -69,6 +70,7 @@ rem has bugs in media quaries: USE EM!
     background-image: url(../images/bg-section-top-mobile-1.svg);
     max-width: 100vw;
     height: 23rem;
+    background-size: cover;
   }
   .features__section__btm__wavyImg {
     background-image: url(../images/bg-section-bottom-mobile-2.svg);
@@ -80,8 +82,16 @@ rem has bugs in media quaries: USE EM!
   }
   .footer__top__wavyImg {
     background-image: url(../images/bg-footer-top-mobile.svg);
+    background-size: cover;
     max-width: 100vw;
-    height: 23rem;
+
+    /* width: 99%; */
+    height: 9rem;
+  }
+  .footer__top__wavyImg__cont {
+    max-width: 100%;
+
+    height: fit-content;
   }
   .icon-big-white {
     width: 47px;
@@ -118,7 +128,7 @@ rem has bugs in media quaries: USE EM!
   }
 
   html {
-    font-size: 50%;
+    font-size: 37%;
   }
   section {
     text-align: center;
